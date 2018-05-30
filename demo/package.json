@@ -1,0 +1,27 @@
+{
+  "name": "Gallery",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "react-devtools": "react-devtools"
+  },
+  "dependencies": {
+    "react": "16.3.1",
+    "react-native": "0.55.4",
+    "react-native-gallery": "0.0.17",
+    "react-native-scroller": "0.0.6",
+    "react-native-view-transformer": "0.0.28"
+  },
+  "devDependencies": {
+    "babel-jest": "22.4.4",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "22.4.4",
+    "react-devtools": "^3.2.3",
+    "react-test-renderer": "16.3.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
